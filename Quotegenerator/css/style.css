@@ -1,0 +1,54 @@
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+
+}
+.container .img-banner
+{
+    flex:1;
+    
+}
+.container .quote-section
+{
+    flex:1;
+   
+}
+.container .quote-section
+{
+    font-size: 30px;
+    border:2px solid black;
+    padding:20px;
+    height: auto;
+    text-align: center;
+    border-radius:28px;
+    color:black;
+    font-style: italic;
+    box-shadow: 5px 13px 18px rgb(133, 20, 238); 
+
+
+
+}
+span{
+    color:black;
+}
+button{
+    padding:10px;
+    font-weight: 400;
+}
+.container .quote-section .btn
+{
+    padding:15px;
+    border-radius: 20px;
+    color:white;
+    width:50%;
+    font-size: 15px;
+    background-color:rgb(133, 20, 238); 
+}
